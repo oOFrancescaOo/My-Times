@@ -1,19 +1,93 @@
-* {
-  font-family: Helvetica, Arial, sans-serif;
+
+html {
+
 }
 
+body {
+
+}
+
+header {
+
+}
+
+.logo {
+
+}
+
+nav {
+
+}
+
+.content {
+
+}
+
+.stories {
+
+}
+
+.article {
+
+}
 
 h1 {
-  color: SeaGreen;
+
+}
+
+p {
+
+}
+
+#headline {
+
+}
+
+#main-title {
+
+}
+
+h2 {
+
+}
+
+.highlight {
+
+}
+
+#cat {
+
+}
+
+#earth {
+
+}
+
+#camera{
+
 }
 
 
-p,
-li {
-  font-size: 18px;
+.sidebar {
+
 }
 
+.news-bites {
 
-a {
-  text-decoration: none;
+}
+
+h3 {
+
+}
+
+.bite {
+
+}
+
+footer {
+
+}
+
+#mytimes {
+
 }
