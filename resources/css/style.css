@@ -61,6 +61,8 @@ nav span {
 }
 
 .content {
+  display: flex;
+  justify-content: space-between;
   position: relative;
   top: 80px;
   padding-top: 20px;
@@ -71,11 +73,27 @@ nav span {
 
 .stories {
   display: flex;
+  justify-content: space-between;
   font-family: Georgia;
 }
 
-.article {
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 32px;
+}
 
+.column.large {
+  min-width: 630px;
+}
+
+.column.medium {
+}
+
+
+.article {
+  width: 300px;
 }
 
 h1 {
@@ -87,12 +105,11 @@ p {
 }
 
 #headline {
-
+  width: 100%;
 }
 
 #main-title {
   background-image: url(../main-story.png);
-  width: 630px;
   color: white;
 }
 
@@ -101,19 +118,18 @@ h2 {
 }
 
 .highlight {
-
+ height: 300px;
 }
 
 #cat {
-
-}
+  background-image: url(../cat-ceo.png);}
 
 #earth {
-
+  background-image: url(../fall-season.png);
 }
 
 #camera{
-
+  background-image: url(../hipster-cameraman.png);
 }
 
 
