@@ -4,10 +4,6 @@
   padding: 0;
 }
 
-html {
-
-}
-
 body {
   font-family: Verdana;
 }
@@ -26,20 +22,18 @@ header {
   /*flex-wrap: wrap;*/
 }
 
-div {
-  display: block;
-}
-
-.logo img {
-  margin-right: 12px;
-}
-
 .logo {
   display: flex;
   flex-grow: 1;
   align-items: center;
   padding-left: 30px;
 }
+
+
+.logo img {
+  margin-right: 12px;
+}
+
 
 .logo span {
   color: MediumAquamarine;
@@ -91,7 +85,6 @@ nav span {
 .column.medium {
   flex-direction: column;
 }
-
 
 .article {
   width: 300px;
