@@ -1,4 +1,9 @@
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
 
 }
@@ -10,15 +15,25 @@ body {
 header {
   position: fixed;
   z-index: 1;
-  height: 80px;
-  width: 100px;
+  min-height: 80px;
+  width: 100%;
   display: flex;
+  justify-content: space-between;
+  background-color: white;
   border-bottom: 1px solid black;
   font-size: 14px;
+  font-weight: bold;
+  /*flex-wrap: wrap;*/
+}
+
+.logo img {
+  margin-right: 12px;
 }
 
 .logo {
-  align-self: flex-start;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
   padding-left: 30px;
 }
 
@@ -27,17 +42,24 @@ header {
 }
 
 header nav {
-  align-self: flex-end;
-  padding-right: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0px 40px 0px 20px;
 }
 
-nav-span {
+a {
+  color: black;
+}
+
+nav span {
   display: inline-block;
   padding: 20px 10px;
 }
 
 .content {
-
+  position: relative;
+  top: 80px;
+  padding-top: 20px;
 }
 
 .stories {
